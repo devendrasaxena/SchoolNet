@@ -1,0 +1,384 @@
+body{overflow-x: hidden;background-color:#f5f5f5!important;}
+.loginBg {
+    border-top: 2px solid #003f77;
+}
+.loginRegSection .formMainDiv, .formMainDiv {
+    padding: 5px 20px 20px 20px!important;
+}
+.loginRegSection .form-Div, .form-Div {
+    padding-bottom: 5px!important;
+}
+.login-form .loginpanel .student-title {
+    font-size: 20px;  
+    color: #003f77;
+   
+}
+.loginRegSection .heading, .heading {
+    width: auto;
+    min-height: 28px;
+    height: auto;
+    font-size: 21px;
+    color:#d91b2c;
+    margin: 0px auto 2% auto;
+}
+.vTop{vertical-align: top;}
+.vMidlle{vertical-align: middle;}
+.lefttopImg{width: 45%;}
+.midtopImg{width: 45%;}
+.leftMidImg1{width: 80%;}
+.leftMidImg2{width: 80%;padding-top:10px;}
+.rightMidImg{width: 20%;vertical-align: middle; padding-top: 45%;}
+.bgFooter{width:100%;height:40px; background-color:#f15a55!important;position: fixed;
+    bottom: 0px;}	
+
+	.loginRegSection .loginDiv, .loginRegSection .regDiv {
+		position: relative;
+		width: 80%;
+		height: 100%;
+		min-height: auto;
+max-height: 320px;
+		margin-bottom:-40px;margin: 10px 10px;
+	}
+	.loginRegSection .bgImg, .bgImg {
+		/* top: -20%; */
+	}
+
+.loginRegSection .logon-heading, .logon-heading {
+    height: auto;
+    padding: 2% 0px 2% 0px;
+    margin: 0px auto 0% auto;
+}
+.loginRegSection .btnBg, .btnBg {
+    width: 310px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #f15a55!important;
+    margin: 0px auto;
+}
+.loginRegSection .bgLoginImg, .bgLoginImg {
+    top: 10%;
+    padding: 0px 0px 0px 0px!important;
+}
+.loginRegSection .inputText, .inputText {
+    min-height: 32px;
+    padding: 6px 12px;
+   
+}
+@media (max-width: 1020px){
+.bgFooter{position: relative;}	
+  
+}
+@media (max-width: 991px){
+	.loginRegSection .loginDiv, .loginRegSection .regDiv {
+		position: relative;
+		width: 100%;
+	}
+	.loginRegSection .btnBg, .btnBg {
+    width: auto;}
+	.loginRegSection .btnBg, .btnBg {
+		
+		background-color: #f15a55!important;
+	}
+	.loginRegSection .bgLoginImg, .bgLoginImg {
+	
+		padding: 0px 0px 0px 0px!important;
+	}
+	.bgFooter{position: relative;}	
+}
+@media (max-width: 768px){
+.lefttopImg{width: 25%;}
+.midtopImg{width: 25%;}
+.leftMidImg1{width: 40%;}
+.leftMidImg2{width: 40%;padding-top:10px;}
+.rightMidImg{width: 20%;vertical-align: middle; padding-top: 25%;}
+.bgFooter{position: relative;}	
+}
+.btn-orange, .open .dropdown-toggle.btn-orange,.btn-orange:hover, .open .dropdown-toggle.btn-orange:hover {
+    color: #fff !important;
+    background-color:#003f77!important;
+    border-color: #003f77!important;
+    
+}
+
+.triangled_colored_separator {
+    background-color:#003f77;
+}
+.triangled_colored_separator .triangle {
+    border-bottom: 5px solid #003f77;
+}
+.footer{    min-height: 32px;
+    padding: 0 15px;background-color: #d6d6d6;}
+footer > .copyright {
+   height:32px;
+}
+.login-form .loginpanel p {
+    font-size: 12px;
+}
+
+.header.navbar{height: 60px;}
+.navbar-brand {
+    float: none;
+    text-align: center;
+    font-size: 25px;
+    line-height: 56px;
+    height: 60px;
+  /*   width: 180px; */width:auto;
+    display: inline-block;
+        font-weight: normal!important;
+    color: #ffffff !important;font-family:'brandongrotesque','centralesans';
+}.navbar-brand img {
+    vertical-align: middle;
+    width: auto;
+    height: 50px;
+    max-width: 100%;
+}
+.navbar-headerLogin {
+     padding-top: 0px!important;
+}
+a.navbar-brand:hover{ color: #ffffff !important;}
+.header.navbar,.bg-dark{  background-color: #f5f5f5 !important;
+}
+/* #################### dynamic ################ */
+.bg-dark.dk, .bg-dark .dk ,.header.navbar,.footerRightBg,.footerBg,.sandClock .imgBg,.bg-dark.dk, .bg-dark .dk, .bg-dark{
+    background-color: #f15a55!important; 
+}
+.groupListBg ul li.secondColor .content, .groupListBg ul li.secondColor .count, .groupListBgColumn ul li.secondColor .content, .groupListBgColumn ul li.secondColor .count {
+    background-color: #f15a55!important; 
+}
+.groupListBg ul li.secondColor, .groupListBgColumn ul li.secondColor {
+    border: 2px solid #f15a55/*rgb(244, 177, 131)*/;
+}
+  .attendanceheading .heading{color:#d91b2c;}
+.rightMenuBg,.midMenuBg .chapterBg {
+background: #145C9A}
+.navbar-nav.navbar-right{background: #5a58584d;color:#111}
+
+.navbar-nav.navbar-right > li > a{color:#111!important;}
+.bottomMenuBg {
+    height: 5px;
+    background: #fff;
+}
+
+.loginRegSection .heading, .heading {
+    width: auto;
+    min-height: 28px;text-align:center;font-size: 18px;
+    font-weight:500;}
+.loginRegSection .header,.header{background-color:#fff;}
+.loginRegSection .btnBg, .btnBg,.loginRegSection .btn, .btn,.leftPanel .visitDiv .box .chRight .btn,.rightPanel .formMainDiv .btnBg .btn,.introContentDetail .btnStartAss, .btnStartAss, .loginRegSection .btnStartAss{
+    background-color:#f15a55!important;}
+.setDailyGoalDiv .btnBg{width:100%!important;}
+	.introContentDetail .btnStartAss, .btnStartAss, .loginRegSection .btnStartAss{}
+a.taketest{color: #111!important;
+    text-decoration: none;
+    font-size: 13px;}
+.headerRight .switchDrop > li a{color: #f15a55!important;}
+.reportList .nav-tabs>li > a.active, .reportList .nav-tabs > li > a.active:focus, .reportList .nav-tabs > li.active >a.active:hover {
+    color: #555;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #f15a55!important;
+    border-bottom-color: #f15a55!important;
+}
+.headBg {
+    background:#f15a55!important;
+}
+.headerRight .user{font-weight:bold;
+ color: #111;}
+.nav-primary li{border-bottom: solid thin #323131;}
+.nav-primary li:last-child{border-bottom: none!important;}
+.nav-primary ul.nav > li.active > a, .nav-primary ul.nav > li.active, .nav-primary ul.nav > li:hover, .nav-primary ul.nav > li:hover > a, .nav-primary ul.nav > li.active > a:hover, .nav-primary ul.nav > li.active > a:focus {
+    background: #c1403c!important;
+   
+    color: #fff!important;
+}
+.nav-primary ul.nav > li > a {
+    
+    color: #fff!important;
+}
+.nav-tabs>li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active >a:hover {
+    
+    color: #fff;
+    background-color: #f15a55;
+    border: 1px solid #ddd;
+   
+}
+.sliderBg .sliderWrapperTopic .slideContentTopic .bottomSection {
+   
+    color: #f15a55;}
+.moduleHeader .rightSide.levelDiv .levelsRange ul li.active, .moduleHeader .leftSide .levelDiv .levelsRange ul li.active, .moduleHeader .levelDiv .levelsRange ul li.active {
+    background-color: #f15a55!important;color:#fff!important;
+}
+.moduleHeader .rightSide .levelDiv .levelsRange ul li.active a, .moduleHeader .rightSide .levelDiv .levelsRange ul li.complete a, .moduleHeader .leftSide .levelDiv .levelsRange ul li.active a, .moduleHeader .leftSide .levelDiv .levelsRange ul li.complete a, .moduleHeader .levelDiv .levelsRange ul li.active a, .moduleHeader .levelDiv .levelsRange ul li.complete a {
+   color:#fff!important;
+}
+.fontSize12{font-size:13px;}
+
+tr.super td,.panel > .table-responsive > .table-bordered > tbody > tr.super:first-child > td{background-color:#e6e6cf;!important;}
+@media (min-width: 768px){
+ .aside-md {
+    width: 180px;
+    background-color: #f15a55!important
+  }
+}
+.aside-mdUser {
+    background-color:  #f15a55!important
+}
+.homeIcon {
+    border: solid 1px #5a58584d;
+    background: #5a58584d;
+}
+.navbar-nav.navbar-right > li:hover > a,.navbar-nav.navbar-right > li:focus > a{ background: #5a58584d;}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #5a58584d;
+    border-color: #5a58584d;
+}
+.bg-dark .nav .open > a {
+    background-color:#5a58584d;
+}
+
+.imgLog {
+     padding: 0px!important;
+    border-radius: 10px 0px 0px 10px!important;
+   padding-top:0px!important;
+    width: 100%!important;
+}
+@media (max-width: 991px){
+	.imgLog {
+		height: 100%;
+		padding: 0px!important;
+		border-radius: 10px 0px 0px 10px!important;
+		width: 100%;
+	}
+	#wrapper {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0px;
+    left: 0;
+    overflow: auto;
+    margin: 0px auto;
+    padding: 0px 80px 0px 0px;
+	}
+	.content {
+		width: 100%;
+		height: auto;
+		top: 0%;
+		margin: 0 auto;
+		position: relative;
+	}
+	.bannerHeading {
+     font-size: 20px;    line-height: 18px;
+
+	}
+	.subPara {
+    font-size: 13px;
+}
+}
+.header.navbar{height: 60px;}
+.navbar-brand {
+    float: none;
+    text-align: center;
+    font-size: 25px;
+    line-height: 56px;
+    height: 60px;
+  /*   width: 180px; */width:auto;
+    display: inline-block;
+        font-weight: normal!important;
+    color: #ffffff !important;font-family:'brandongrotesque','centralesans';
+}.navbar-brand img {
+    vertical-align: middle;
+    width: auto;
+    height: 50px;
+    max-width: 100%;
+}
+.navbar-headerLogin {
+     padding-top: 0px!important;
+}
+a.navbar-brand:hover{ color: #ffffff !important;}
+
+/* #################### dynamic ################ */
+.bg-dark.dk, .bg-dark .dk ,.header.navbar{
+    background-color: #f15a55!important; 
+}
+.introContentDetail .btnStartAss, .btnStartAss,.footerRightBg,.footerBg,.sandClock .imgBg,.bg-dark.dk, .bg-dark .dk, .bg-dark,.tocbottomBg .btn-primary,.btn-primary,.closeCustom{
+    background-color: #f15a55!important; 
+}
+.preCircle, .nextCircle{}
+.bottomMenuBg {
+    height: 5px;
+    background: #fff;
+}
+
+.fontSize12{font-size:13px;}
+
+tr.super td,.panel > .table-responsive > .table-bordered > tbody > tr.super:first-child > td{background-color:#e6e6cf;!important;}
+@media (min-width: 768px){
+ .aside-md {
+    width: 180px;
+    background-color: #f15a55!important;
+  }
+  
+ 
+}
+.aside-mdUser {
+    background-color:  #f15a55!important;
+}
+.homeIcon {
+    border: solid 1px #5a58584d;
+    background: #5a58584d;
+}
+.navbar-nav.navbar-right > li:hover > a,.navbar-nav.navbar-right > li:focus > a{ background: #5a58584d;}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #5a58584d;
+    border-color: #5a58584d;
+}
+.bg-dark .nav .open > a {
+    background-color:#5a58584d;
+}
+
+.imgLog {
+     padding: 0px!important;
+    border-radius: 10px 0px 0px 10px!important;
+   padding-top:0px!important;
+    width: 100%!important;
+}
+@media (max-width: 991px){
+	.imgLog {
+		height: 100%;
+		padding: 0px!important;
+		border-radius: 10px 0px 0px 10px!important;
+		width: 100%;
+	}
+	 .loginRegSection .header, .header {
+    height: auto;
+    overflow: hidden;
+  line-height: 60px;}
+  .nav-mobile {
+   
+    background-color: #f15a55!important;
+   }
+    
+
+}
+@media (max-width: 980px){
+	.allTopicDiv .topicHead, .allTopicDiv .topicHeadDefault {
+		width: 52%;
+	}
+	.moduleHeader .rightSide .levelDiv, .moduleHeader .leftSide .levelDiv, .moduleHeader .levelDiv {
+      padding: 20px 0px;
+    }
+	.moduleHeader .levelDiv .levels {
+		width: 100%;
+		font-size: 13px;
+		padding: 15px 10px 10px 2px;
+	}.moduleHeader .rightSide .levelDiv .levelsRange ul, .moduleHeader .leftSide .levelDiv .levelsRange ul, .moduleHeader .levelDiv .levelsRange ul {
+   
+    padding-top: 0px;
+	}.moduleHeader .rightSide .levelDiv .levelsRange, .moduleHeader .leftSide .levelDiv .levelsRange, .moduleHeader .levelDiv .levelsRange {
+    padding-top: 5px;
+    width:98%}
+	.componentDetailBg {
+    min-height: 285px}
+
+}

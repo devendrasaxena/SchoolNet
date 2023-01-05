@@ -1,0 +1,151 @@
+/* CSS Document */
+
+/*###############loader######################*/
+	
+.loadBg{
+background-color: rgba(59, 67, 84, 0.33);
+/*background-color: #fff;*/
+position:fixed;top:0;left:0;
+width: 100%;
+height:100%;overflow:hidden;
+z-index:99999999;
+
+ display:none;
+ text-align: center;}
+ .preloadBg{
+background-color:rgba(59, 67, 84, 0.33);
+/*background-color: #fff;*/
+position:fixed;top:0;left:0;
+width: 100%;
+height:100%;overflow:hidden;
+/*z-index:9999999;*/
+z-index: 99999999;
+ text-align: center;}
+ 
+ 
+ 
+ .innerLoadBg{
+background-color: rgba(59, 67, 84, 0.33);
+/*background-color: #fff;*/
+position:absolute;top:0;left:0;
+width: 100%;
+height:100%;overflow:hidden;
+z-index:99999999;
+
+ display:none;
+ text-align: center;}
+ .preInnerLoadBg{
+background-color: rgba(59, 67, 84, 0.33);
+/*background-color: #fff;*/
+position:absolute;top:0;left:0;
+width: 100%;
+height:100%;overflow:hidden;
+z-index:9999999;
+
+ text-align: center;}
+/* #overlayBlur{
+ width: 100%;
+height:100%;
+ position: absolute;z-index:9002;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+  background:black;
+  background:rgba(0,0,0,0.8);
+
+  filter:blur(4px);
+  -o-filter:blur(4px);
+  -ms-filter:blur(4px);
+  -moz-filter:blur(4px);
+  -webkit-filter:blur(4px);
+  }*/
+.loadDiv{position:relative; top:40%;text-align: center;z-index:99999999;}
+.loadImg{text-align: center;}
+.loadText{color:#fff;text-align: center;
+font-size: 16px; 
+/*  font-family: Georgia; */
+vertical-align: middle;
+padding-top:20px;
+}
+@media (max-width: 980px){
+.loadDiv{position:relative; top:20%;text-align: center;}
+}
+
+
+/*loader*/
+ .innerLoadBg .loadBg{ background-color:rgba(111, 111, 111, 0.39);position: absolute;top:0;left:0;width: 100%;height:100%;overflow:hidden;z-index:9001;-moz-opacity: 0.9;opacity:.90;filter: alpha(opacity=90); display:none; }
+ .innerLoadBg .loadImg{position:fixed; top:40%; left:55%; }
+ .innerLoadBg .loadText{color: #FFF;
+text-align: center;
+font-size: 16px;
+vertical-align: middle;
+position: fixed;
+top: 55%;
+left: 54%; 
+}
+@keyframes blink {
+    /**
+     * At the start of the animation the dot
+     * has an opacity of .2
+     */
+    0% {
+      opacity: .2;
+    }
+    /**
+     * At 20% the dot is fully visible and
+     * then fades out slowly
+     */
+    20% {
+      opacity: 1;
+    }
+    /**
+     * Until it reaches an opacity of .2 and
+     * the animation can start again
+     */
+    100% {
+      opacity: .2;
+    }
+}
+
+ .innerLoadBg .loadText span {
+    /**
+     * Use the blink animation, which is defined above
+     */
+    animation-name: blink;
+    /**
+     * The animation should take 1.4 seconds
+     */
+    animation-duration: 1.4s;
+    /**
+     * It will repeat itself forever
+     */
+    animation-iteration-count: infinite;
+    /**
+     * This makes sure that the starting style (opacity: .2)
+     * of the animation is applied before the animation starts.
+     * Otherwise we would see a short flash or would have
+     * to set the default styling of the dots to the same
+     * as the animation. Same applies for the ending styles.
+     */
+    animation-fill-mode: both;
+}
+
+ .innerLoadBg .loadText span:nth-child(2) {
+    /**
+     * Starts the animation of the third dot
+     * with a delay of .2s, otherwise all dots
+     * would animate at the same time
+     */
+    animation-delay: .2s;
+}
+
+ .innerLoadBg .loadText span:nth-child(3) {
+    /**
+     * Starts the animation of the third dot
+     * with a delay of .4s, otherwise all dots
+     * would animate at the same time
+     */
+    animation-delay: .4s;
+}
